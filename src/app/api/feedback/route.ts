@@ -49,7 +49,8 @@ export async function POST(request: Request) {
         });
 
         // 构建 Slack 消息
-        const slackMessage = {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const slackMessage: any = {
           blocks: [
             {
               type: "header",
