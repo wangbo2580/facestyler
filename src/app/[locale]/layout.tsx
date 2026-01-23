@@ -1,8 +1,9 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Inter, Noto_Sans_SC } from "next/font/google";
 import Script from "next/script";
+import type { Metadata } from "next";
 import { routing, Locale } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -17,6 +18,23 @@ const notoSansSC = Noto_Sans_SC({
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "metadata" });
+
+  return {
+    title: {
+      default: t("home.title"),
+      template: `%s | FaceStyler`,
+    },
+    description: t("home.description"),
+  };
 }
 
 export default async function LocaleLayout({

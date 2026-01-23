@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"components\\\\share\\\\ShareCard.tsx -> html2canvas\":{\"id\":\"components\\\\share\\\\ShareCard.tsx -> html2canvas\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_html2canvas_dist_html2canvas_js.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"
