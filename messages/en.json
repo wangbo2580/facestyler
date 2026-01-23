@@ -1,0 +1,483 @@
+{
+  "metadata": {
+    "title": "FaceStyler - Find the Best Hairstyle for Your Face Shape",
+    "titleTemplate": "{title} | FaceStyler",
+    "description": "Upload your photo and let AI detect your face shape. Get personalized hairstyle recommendations instantly. Free, no signup required.",
+    "ogTitle": "FaceStyler - Find Your Perfect Hairstyle",
+    "ogDescription": "AI-powered face shape detection with personalized hairstyle recommendations. Free, no signup required.",
+    "about": {
+      "title": "About FaceStyler",
+      "description": "Learn about FaceStyler - the free AI-powered tool that helps you discover your face shape and find the perfect hairstyle recommendations."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "FaceStyler Privacy Policy - Your photos are processed locally in your browser and never uploaded to our servers. Complete privacy guaranteed."
+    },
+    "result": {
+      "title": "Your Face Shape Result",
+      "description": "View your personalized face shape analysis and hairstyle recommendations. Find the perfect look for your unique features."
+    },
+    "faceShapes": {
+      "oval": {
+        "title": "Best Hairstyles for Oval Face Shape",
+        "description": "Discover the most flattering hairstyles for oval face shapes. Browse 15+ expert-curated styles with styling tips and celebrity examples."
+      },
+      "round": {
+        "title": "Best Hairstyles for Round Face Shape",
+        "description": "Find the perfect hairstyles for round face shapes. Browse 15+ styles that create angles and elongate your face beautifully."
+      },
+      "square": {
+        "title": "Best Hairstyles for Square Face Shape",
+        "description": "Explore flattering hairstyles for square face shapes. Discover 15+ styles that soften strong jawlines and angular features."
+      },
+      "heart": {
+        "title": "Best Hairstyles for Heart Face Shape",
+        "description": "Browse the best hairstyles for heart-shaped faces. Find 15+ styles that balance your forehead and complement your chin."
+      },
+      "oblong": {
+        "title": "Best Hairstyles for Oblong Face Shape",
+        "description": "Discover ideal hairstyles for oblong (long) face shapes. Browse 15+ styles that add width and create balanced proportions."
+      },
+      "diamond": {
+        "title": "Best Hairstyles for Diamond Face Shape",
+        "description": "Find stunning hairstyles for diamond face shapes. Explore 15+ styles that highlight your cheekbones and balance your features."
+      }
+    }
+  },
+  "common": {
+    "home": "Home",
+    "faceShapes": "Face Shapes",
+    "about": "About",
+    "tryNow": "Try Now",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "backToHome": "Back to Home",
+    "tryAgain": "Try Again",
+    "close": "Close",
+    "viewMore": "View More",
+    "share": "Share",
+    "download": "Download",
+    "confidence": "{percent}% confidence",
+    "stylesFound": "{count} styles found",
+    "faceShape": "Face Shape",
+    "copyright": "© {year} FaceStyler. All rights reserved.",
+    "privacyNote": "Your photos are processed locally and never uploaded to our servers."
+  },
+  "nav": {
+    "home": "Home",
+    "faceShapes": "Face Shapes",
+    "about": "About",
+    "privacy": "Privacy Policy"
+  },
+  "home": {
+    "badge": "AI-Powered Face Shape Detection",
+    "title": "Find Your Perfect Hairstyle",
+    "subtitle": "Upload a photo and let AI detect your face shape. Get personalized hairstyle recommendations that suit you perfectly.",
+    "howItWorks": "How It Works",
+    "step1Title": "1. Upload Photo",
+    "step1Desc": "Upload a clear photo of your face or take a selfie with your camera",
+    "step2Title": "2. AI Analysis",
+    "step2Desc": "Our AI analyzes your facial features to determine your face shape",
+    "step3Title": "3. Get Recommendations",
+    "step3Desc": "Browse curated hairstyles that are perfect for your face shape",
+    "browseByShape": "Browse by Face Shape",
+    "browseByShapeDesc": "Already know your face shape? Explore hairstyles curated for each face shape.",
+    "privacyFirst": "Privacy First",
+    "privacyDesc": "Your photos are processed entirely in your browser. They are never uploaded to our servers, ensuring complete privacy.",
+    "ctaTitle": "Ready to Find Your Perfect Style?",
+    "ctaDesc": "Thousands of users have already discovered their ideal hairstyles. It's free, quick, and completely private."
+  },
+  "detector": {
+    "female": "Female",
+    "male": "Male",
+    "uploadTitle": "Upload Your Photo",
+    "uploadDesc": "Drag and drop your photo here, or click to browse",
+    "fileTypes": "JPG, PNG, or WebP up to 10MB",
+    "analyzing": "Analyzing face shape...",
+    "yourFaceShape": "Your face shape:",
+    "viewRecommendations": "View Hairstyle Recommendations",
+    "selectManually": "Or select your face shape manually:",
+    "localProcessing": "Your photo is processed locally and never uploaded",
+    "errorImageType": "Please select an image file",
+    "errorFileSize": "File size must be less than 10MB",
+    "loadingModel": "Loading AI model...",
+    "noFaceDetected": "No face detected in the image. Please upload a clear photo of your face.",
+    "detectionError": "Failed to detect face shape. Please try another photo.",
+    "imageLoadError": "Failed to load image. Please try again.",
+    "secondaryShape": "Secondary shape:"
+  },
+  "result": {
+    "title": "Your Result",
+    "subtitle": "Based on AI analysis of your photo",
+    "faceShapeIs": "Your face shape is",
+    "celebrities": "Celebrities:",
+    "notAccurate": "Not accurate? Select manually",
+    "shareTitle": "Share Your Results",
+    "recommendedTitle": "Recommended Hairstyles",
+    "tipsTitle": "Styling Tips for {shape} Faces",
+    "noResultFound": "No detection result found"
+  },
+  "gallery": {
+    "allStyles": "All Styles",
+    "casual": "Casual",
+    "formal": "Formal",
+    "trendy": "Trendy",
+    "classic": "Classic",
+    "allLengths": "All Lengths",
+    "short": "Short",
+    "medium": "Medium",
+    "long": "Long",
+    "noMatches": "No hairstyles match your filters. Try adjusting your selection."
+  },
+  "modal": {
+    "stylingTips": "Styling Tips",
+    "bestFor": "Best For",
+    "maintenance": "Maintenance:"
+  },
+  "faceShapePage": {
+    "heroTitle": "Best Hairstyles for {shape} Face Shape",
+    "heroDesc": "Discover the most flattering hairstyles for your {shape} face. Our expert-curated collection features {count}+ styles that will complement your features perfectly.",
+    "tryCta": "Try Our Free Face Shape Analyzer",
+    "whatIsTitle": "What is a {shape} Face Shape?",
+    "characteristics": "Key Characteristics",
+    "celebrities": "Celebrity Examples",
+    "celebritiesDesc": "These celebrities have {shape} face shapes:",
+    "galleryTitle": "Top {count} Hairstyles for {shape} Faces",
+    "tipsTitle": "Styling Tips for {shape} Faces",
+    "faqTitle": "Frequently Asked Questions",
+    "exploreOthers": "Explore Other Face Shapes",
+    "notSureTitle": "Not Sure About Your Face Shape?",
+    "notSureDesc": "Use our free AI-powered face shape analyzer to discover your face shape in seconds. It's completely free and your photo never leaves your device.",
+    "analyzeCta": "Analyze Your Face Shape"
+  },
+  "about": {
+    "title": "About FaceStyler",
+    "subtitle": "We're on a mission to help everyone find hairstyles that make them look and feel their best.",
+    "storyTitle": "Our Story",
+    "storyP1": "Finding the right hairstyle can be frustrating. Many people don't know their face shape, and even if they do, finding hairstyles that actually flatter their features requires hours of research.",
+    "storyP2": "That's why we created FaceStyler - a free, easy-to-use tool that uses AI to detect your face shape and instantly recommend hairstyles that will look great on you. No sign-up required, no hidden fees, and complete privacy.",
+    "storyP3": "Our goal is simple: help you walk into a salon with confidence, knowing exactly what style will flatter your unique features.",
+    "whyTitle": "Why Choose FaceStyler?",
+    "feature1Title": "AI-Powered Detection",
+    "feature1Desc": "Our advanced AI analyzes 468 facial landmarks to accurately determine your face shape in seconds.",
+    "feature2Title": "100% Private",
+    "feature2Desc": "Your photos are processed entirely in your browser. They're never uploaded to our servers or stored anywhere.",
+    "feature3Title": "Curated Recommendations",
+    "feature3Desc": "Each face shape has 15+ handpicked hairstyles, complete with styling tips and maintenance guidance.",
+    "feature4Title": "Completely Free",
+    "feature4Desc": "No subscriptions, no hidden fees, no premium features. FaceStyler is and will always be free to use.",
+    "howTitle": "How It Works",
+    "how1Title": "Upload or Take a Photo",
+    "how1Desc": "Upload a clear photo of your face or use your camera to take a selfie directly in the app.",
+    "how2Title": "AI Analyzes Your Face Shape",
+    "how2Desc": "Our AI processes your photo locally in your browser, analyzing facial proportions to determine your face shape.",
+    "how3Title": "Get Personalized Recommendations",
+    "how3Desc": "Browse hairstyles curated specifically for your face shape, filter by style and length, and save your favorites.",
+    "ctaTitle": "Ready to Find Your Style?",
+    "ctaDesc": "It takes less than a minute to discover your perfect hairstyle.",
+    "ctaButton": "Try FaceStyler Now"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "overviewTitle": "Overview",
+    "overviewDesc": "At FaceStyler, we take your privacy seriously. This Privacy Policy explains how we handle information when you use our face shape detection and hairstyle recommendation service.",
+    "photoTitle": "Photo Processing - Your Privacy is Protected",
+    "photoHighlight": "Key Privacy Feature: All photo processing happens entirely in your web browser. Your photos are NEVER uploaded to our servers.",
+    "photoDesc": "When you upload a photo or take a selfie using FaceStyler:",
+    "photoPoint1": "The image is processed using AI technology that runs locally in your browser",
+    "photoPoint2": "No image data is transmitted over the internet to our servers",
+    "photoPoint3": "Once you close or refresh the page, the image is immediately discarded from memory",
+    "photoPoint4": "We cannot access, view, or store your photos",
+    "collectTitle": "Information We Collect",
+    "analyticsTitle": "Analytics Data (Anonymous)",
+    "analyticsDesc": "We use Google Analytics to understand how people use our service. This includes:",
+    "analyticsPoint1": "Pages visited and time spent on pages",
+    "analyticsPoint2": "Device type, browser, and operating system (non-identifying)",
+    "analyticsPoint3": "General geographic location (country/city level)",
+    "analyticsPoint4": "How you found our website (referral source)",
+    "analyticsNote": "This data is anonymous and cannot be used to identify you personally.",
+    "notCollectTitle": "Information We Do NOT Collect",
+    "notCollectPoint1": "Photos or images of any kind",
+    "notCollectPoint2": "Facial recognition data or biometric information",
+    "notCollectPoint3": "Personal identification information",
+    "notCollectPoint4": "Email addresses (we don't have accounts or sign-up)",
+    "notCollectPoint5": "Payment information (the service is free)",
+    "cookiesTitle": "Cookies",
+    "cookiesDesc": "We use cookies for analytics purposes through Google Analytics. These cookies help us understand how visitors interact with our website. You can disable cookies in your browser settings if you prefer not to be tracked.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyDesc": "We use the following third-party services:",
+    "thirdPartyGA": "Google Analytics: For anonymous usage analytics",
+    "thirdPartyAds": "Google AdSense: For displaying advertisements",
+    "thirdPartyVercel": "Vercel: For hosting our website",
+    "thirdPartyNote": "These services have their own privacy policies that govern how they handle data.",
+    "adsTitle": "Advertising",
+    "adsDesc": "We display advertisements through Google AdSense. These ads may use cookies to show you relevant content based on your browsing history across different websites. You can opt out of personalized advertising by visiting Google's Ad Settings.",
+    "childrenTitle": "Children's Privacy",
+    "childrenDesc": "FaceStyler is not intended for children under 13 years of age. We do not knowingly collect any information from children.",
+    "changesTitle": "Changes to This Privacy Policy",
+    "changesDesc": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.",
+    "contactTitle": "Contact Us",
+    "contactDesc": "If you have any questions about this Privacy Policy, please contact us through our website."
+  },
+  "footer": {
+    "brand": "FaceStyler",
+    "brandDesc": "AI-powered face shape detection with personalized hairstyle recommendations. Free, no signup required.",
+    "faceShapesTitle": "Face Shapes",
+    "resourcesTitle": "Resources",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "connectTitle": "Connect",
+    "connectDesc": "Have questions or feedback? We'd love to hear from you."
+  },
+  "faceShapes": {
+    "oval": {
+      "name": "Oval",
+      "description": "The oval face shape is considered the most versatile and well-balanced. It's characterized by a face length that is about 1.5 times the width, with a gently rounded jawline and forehead that are similar in width.",
+      "characteristics": [
+        "Face length is 1.3-1.5 times the width",
+        "Forehead and jaw are similar width",
+        "Softly rounded jawline",
+        "Widest at the cheekbones",
+        "Gently curved chin"
+      ],
+      "celebrities": ["Beyoncé", "Jessica Alba", "Julia Roberts", "George Clooney", "Ryan Gosling"],
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Avoid covering your forehead too much",
+        "Experiment with different lengths and styles",
+        "Both side and center parts work well",
+        "Try adding volume at the crown for added dimension"
+      ]
+    },
+    "round": {
+      "name": "Round",
+      "description": "A round face has soft angles with the width and length being almost equal. The cheeks are usually the widest part of the face, giving it a youthful, friendly appearance.",
+      "characteristics": [
+        "Face width and length are nearly equal",
+        "Full, prominent cheeks",
+        "Rounded chin without angular features",
+        "Soft, curved jawline",
+        "Widest at the cheekbones"
+      ],
+      "celebrities": ["Selena Gomez", "Chrissy Teigen", "Miranda Kerr", "Leonardo DiCaprio", "Elijah Wood"],
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs to create angles",
+        "Long layers can help elongate your face",
+        "Avoid chin-length bobs that add width",
+        "Opt for styles that create the illusion of length"
+      ]
+    },
+    "square": {
+      "name": "Square",
+      "description": "A square face shape features a strong, angular jawline with the forehead, cheekbones, and jaw being roughly the same width. This face shape often conveys strength and confidence.",
+      "characteristics": [
+        "Strong, angular jawline",
+        "Forehead, cheekbones, and jaw similar in width",
+        "Face length and width are nearly equal",
+        "Prominent jaw corners",
+        "Relatively straight sides"
+      ],
+      "celebrities": ["Angelina Jolie", "Olivia Wilde", "Demi Moore", "Brad Pitt", "Henry Cavill"],
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Add volume at the temples and crown",
+        "Avoid blunt, one-length cuts",
+        "Soft waves and curls complement your features"
+      ]
+    },
+    "heart": {
+      "name": "Heart",
+      "description": "A heart-shaped face is wider at the forehead and tapers down to a narrow, pointed chin. This creates a romantic, delicate appearance often associated with beauty.",
+      "characteristics": [
+        "Wide forehead, the widest part of the face",
+        "Narrow, sometimes pointed chin",
+        "High, prominent cheekbones",
+        "Face tapers from forehead to jaw",
+        "Often has a widow's peak hairline"
+      ],
+      "celebrities": ["Reese Witherspoon", "Scarlett Johansson", "Taylor Swift", "Ryan Reynolds", "Nick Jonas"],
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Chin-length bobs work wonderfully",
+        "Avoid excessive volume at the crown",
+        "Layers around the chin add balance"
+      ]
+    },
+    "oblong": {
+      "name": "Oblong",
+      "description": "An oblong (or long) face shape is longer than it is wide, with the forehead, cheekbones, and jawline being similar in width. The face appears elongated and elegant.",
+      "characteristics": [
+        "Face is noticeably longer than it is wide",
+        "Length is more than 1.5 times the width",
+        "Forehead, cheeks, and jaw similar in width",
+        "Long, straight cheek line",
+        "May have a long nose or high forehead"
+      ],
+      "celebrities": ["Sarah Jessica Parker", "Liv Tyler", "Cate Blanchett", "Adam Levine", "Ben Affleck"],
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can help shorten the appearance of your face",
+        "Avoid very long, straight styles",
+        "Layered cuts with volume work great",
+        "Chin to shoulder length styles are ideal"
+      ]
+    },
+    "diamond": {
+      "name": "Diamond",
+      "description": "A diamond face shape features high, dramatic cheekbones with a narrow forehead and jawline. This creates an angular, striking appearance that's relatively rare.",
+      "characteristics": [
+        "High, wide cheekbones - the widest point",
+        "Narrow forehead",
+        "Narrow, pointed chin",
+        "Angular, defined features",
+        "Face tapers at both top and bottom"
+      ],
+      "celebrities": ["Rihanna", "Taylor Swift", "Vanessa Hudgens", "Robert Pattinson", "Johnny Depp"],
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at the forehead",
+        "Chin-length styles balance the cheekbones",
+        "Avoid slicked-back styles",
+        "Soft layers around the face work well"
+      ]
+    }
+  },
+  "faqs": {
+    "oval": [
+      {
+        "question": "What haircut is best for an oval face?",
+        "answer": "Oval faces are versatile and can pull off almost any hairstyle. Popular choices include long layers, blunt bobs, pixie cuts, and shoulder-length waves. The key is to maintain the natural balance of your face shape."
+      },
+      {
+        "question": "Should oval faces have bangs?",
+        "answer": "Yes! Oval faces can rock most bang styles, from curtain bangs to side-swept or even blunt bangs. Just avoid very heavy, straight-across bangs that cover too much of your forehead, as this can throw off your balanced proportions."
+      },
+      {
+        "question": "What hairstyles should oval faces avoid?",
+        "answer": "While oval faces are very versatile, you should avoid styles that add too much volume on the sides, which can make your face look rounder. Also, avoid covering your forehead entirely, as this is one of your best features."
+      },
+      {
+        "question": "Is a bob haircut good for oval face?",
+        "answer": "Absolutely! Bobs are excellent for oval faces. Whether it's a classic chin-length bob, a longer lob, or an asymmetrical bob, this cut complements oval face shapes beautifully."
+      },
+      {
+        "question": "What is the most attractive face shape?",
+        "answer": "While beauty is subjective, the oval face shape is often considered the 'ideal' face shape due to its balanced proportions. However, every face shape has its own unique beauty and flattering hairstyles."
+      }
+    ],
+    "round": [
+      {
+        "question": "What is the best haircut for a round face?",
+        "answer": "The best haircuts for round faces add height and angles. Long layers, side-swept bangs, and asymmetrical cuts work well. Avoid chin-length bobs that add width."
+      },
+      {
+        "question": "Should round faces have bangs?",
+        "answer": "Side-swept or curtain bangs work great for round faces as they create angles. Avoid blunt, straight-across bangs that emphasize the roundness."
+      },
+      {
+        "question": "What hairstyles make a round face look thinner?",
+        "answer": "Styles with volume at the crown, long layers, and side parts help elongate round faces. Avoid center parts and styles that add width at the cheeks."
+      },
+      {
+        "question": "Is short hair good for round faces?",
+        "answer": "Yes, but choose the right short style. Pixie cuts with volume on top and longer pieces in front work well. Avoid very short, rounded bobs."
+      },
+      {
+        "question": "How can I make my round face look more oval?",
+        "answer": "Add height at the crown, use side-swept styles, and keep hair longer around the face. Contouring makeup can also help create the illusion of a more oval shape."
+      }
+    ],
+    "square": [
+      {
+        "question": "What is the best hairstyle for a square face?",
+        "answer": "Soft, layered cuts that soften angular features work best. Side-parted styles, waves, and curls complement square faces beautifully."
+      },
+      {
+        "question": "Should square faces avoid bangs?",
+        "answer": "Not at all! Soft, wispy bangs or side-swept bangs can soften a square face. Avoid blunt, heavy bangs that emphasize the strong jawline."
+      },
+      {
+        "question": "What haircuts should square faces avoid?",
+        "answer": "Avoid blunt, one-length cuts and very straight styles that emphasize angular features. Also avoid chin-length bobs that draw attention to the jaw."
+      },
+      {
+        "question": "Is long hair good for square faces?",
+        "answer": "Yes! Long, layered hair with soft waves is excellent for square faces. It softens the jawline and adds feminine elegance."
+      },
+      {
+        "question": "How do I soften my square jawline with hair?",
+        "answer": "Use soft layers around the face, waves or curls near the jaw, and side parts. Avoid tucking hair behind ears which exposes the jawline."
+      }
+    ],
+    "heart": [
+      {
+        "question": "What is the best haircut for a heart-shaped face?",
+        "answer": "Chin-length bobs, side-swept bangs, and styles with volume at the jaw level work best. These balance the wider forehead and narrow chin."
+      },
+      {
+        "question": "Should heart faces have bangs?",
+        "answer": "Yes! Side-swept bangs are perfect for minimizing a wide forehead. Avoid heavy, full bangs that can make the forehead appear even wider."
+      },
+      {
+        "question": "What hairstyles should heart faces avoid?",
+        "answer": "Avoid styles with lots of volume at the crown, slicked-back looks, and very short cuts that expose the wide forehead."
+      },
+      {
+        "question": "Is a pixie cut good for heart-shaped faces?",
+        "answer": "It can be, but choose carefully. Pixie cuts with longer, side-swept pieces in front work well. Avoid very short, cropped styles."
+      },
+      {
+        "question": "How can I balance my heart-shaped face?",
+        "answer": "Add volume and width at the chin level with layers or curls. Use side-swept bangs to minimize the forehead, and avoid top-heavy styles."
+      }
+    ],
+    "oblong": [
+      {
+        "question": "What is the best haircut for an oblong face?",
+        "answer": "Styles with side volume, bangs, and chin to shoulder-length cuts work best. These add width and reduce the appearance of length."
+      },
+      {
+        "question": "Should oblong faces have bangs?",
+        "answer": "Yes! Bangs are great for oblong faces as they shorten the face visually. Try curtain bangs, side-swept bangs, or even blunt bangs."
+      },
+      {
+        "question": "What hairstyles should oblong faces avoid?",
+        "answer": "Avoid very long, straight hair and styles that add height at the crown. These can make the face appear even longer."
+      },
+      {
+        "question": "Is long hair bad for oblong faces?",
+        "answer": "Very long hair can elongate the face further. Opt for chin to shoulder-length styles with layers and volume for best results."
+      },
+      {
+        "question": "How can I make my long face look shorter?",
+        "answer": "Add width with layers and waves at the sides. Bangs help shorten the face visually. Avoid center parts and very long, straight styles."
+      }
+    ],
+    "diamond": [
+      {
+        "question": "What is the best haircut for a diamond face?",
+        "answer": "Chin-length bobs, side-swept bangs, and styles with fullness at the forehead and chin work best. These balance the wide cheekbones."
+      },
+      {
+        "question": "Should diamond faces have bangs?",
+        "answer": "Yes! Side-swept bangs add width to the narrow forehead. Avoid very short bangs that expose too much of the forehead."
+      },
+      {
+        "question": "What hairstyles should diamond faces avoid?",
+        "answer": "Avoid slicked-back styles, very short hair, and styles that add volume at the cheekbones. These emphasize the widest part of the face."
+      },
+      {
+        "question": "Is a bob good for diamond faces?",
+        "answer": "Yes! Chin-length bobs are excellent for diamond faces as they add fullness at the narrow chin while balancing the cheekbones."
+      },
+      {
+        "question": "How can I balance my diamond face shape?",
+        "answer": "Add volume at the forehead with bangs and at the chin with layers. Keep hair smooth over the cheekbones to minimize their width."
+      }
+    ]
+  }
+}

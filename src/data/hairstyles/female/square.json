@@ -4,198 +4,462 @@
   "hairstyles": [
     {
       "id": "f-square-001",
-      "name": "Soft Waves",
-      "faceShapes": ["square"],
+      "name": "Classic Long Layers",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
       "length": "long",
-      "image": "/hairstyles/female/soft-waves.jpg",
-      "description": "Soft, romantic waves that soften strong jawlines and add femininity to angular features.",
-      "tips": ["Create loose waves with large barrel iron", "Focus waves around face", "Use smoothing serum"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
+      "image": "/hairstyles/female/female-029.jpg",
+      "description": "Soft, flowing layers that frame the face beautifully. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-002",
-      "name": "Side-Parted Layers",
-      "faceShapes": ["square"],
+      "name": "Beachy Waves",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/side-parted-layers.jpg",
-      "description": "A deep side part with layered hair softens square faces by creating asymmetry and diagonal lines.",
-      "tips": ["Part from eyebrow arch", "Add soft layers around face", "Blow dry with volume"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/female/female-031.jpg",
+      "description": "Effortless, tousled waves with a relaxed, summery vibe. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-square-003",
-      "name": "Textured Bob",
-      "faceShapes": ["square"],
+      "name": "Sleek Straight",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "short",
-      "image": "/hairstyles/female/textured-bob.jpg",
-      "description": "A chin-length bob with textured ends that softens a strong jawline while remaining modern.",
-      "tips": ["Add texture to ends", "Style with beach spray", "Avoid blunt, one-length cuts"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/female/female-032.jpg",
+      "description": "Super straight, glossy hair that looks polished and professional. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-004",
-      "name": "Long Curls",
-      "faceShapes": ["square"],
+      "name": "Voluminous Curls",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "formal",
       "length": "long",
-      "image": "/hairstyles/female/long-curls.jpg",
-      "description": "Flowing curls that add softness and romance, balancing angular square features beautifully.",
-      "tips": ["Use curling wand for loose curls", "Start curls below chin", "Brush through for softness"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
+      "image": "/hairstyles/female/female-033.jpg",
+      "description": "Big, bouncy curls that add drama and glamour. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "high"
     },
     {
       "id": "f-square-005",
-      "name": "Wispy Bangs",
-      "faceShapes": ["square"],
+      "name": "Side Part Glamour",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/wispy-bangs-square.jpg",
-      "description": "Light, wispy bangs that soften the forehead and balance a strong jawline.",
-      "tips": ["Keep bangs light and feathered", "Style to the side", "Avoid heavy straight bangs"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
-      "maintenanceLevel": "medium"
-    },
-    {
-      "id": "f-square-006",
-      "name": "Volume at Crown",
-      "faceShapes": ["square"],
-      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "formal",
       "length": "medium",
-      "image": "/hairstyles/female/volume-crown.jpg",
-      "description": "Added volume at the crown draws the eye upward, balancing a strong jaw with height.",
-      "tips": ["Tease roots for volume", "Use volumizing mousse", "Keep sides sleeker"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "image": "/hairstyles/female/female-034.jpg",
+      "description": "Deep side part with cascading waves for Old Hollywood glamour. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "high"
     },
     {
-      "id": "f-square-007",
-      "name": "Layered Lob",
-      "faceShapes": ["square"],
+      "id": "f-square-006",
+      "name": "Natural Texture",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "medium",
+      "image": "/hairstyles/female/female-035.jpg",
+      "description": "Embrace your natural hair texture with this low-maintenance style. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    },
+    {
+      "id": "f-square-007",
+      "name": "Long Shag",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "trendy",
       "length": "medium",
-      "image": "/hairstyles/female/layered-lob.jpg",
-      "description": "A long bob with plenty of layers adds movement and softness to angular features.",
-      "tips": ["Cut just past shoulders", "Add lots of layers", "Style with texture spray"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
+      "image": "/hairstyles/female/female-036.jpg",
+      "description": "A modern long shag with lots of layers and movement. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-008",
-      "name": "Romantic Updo",
-      "faceShapes": ["square"],
+      "name": "Half Up Half Down",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/romantic-updo.jpg",
-      "description": "A soft, romantic updo with loose pieces framing the face to soften angular features.",
-      "tips": ["Pull out face-framing pieces", "Keep style soft, not sleek", "Add small curls around face"],
-      "suitableFor": ["any texture", "medium", "thick"],
-      "maintenanceLevel": "high"
-    },
-    {
-      "id": "f-square-009",
-      "name": "Beach Waves",
-      "faceShapes": ["square"],
-      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/beach-waves-square.jpg",
-      "description": "Effortless beach waves add softness and movement, perfect for balancing square faces.",
-      "tips": ["Use sea salt spray", "Scrunch and air dry", "Create varied wave sizes"],
-      "suitableFor": ["wavy", "medium", "thick"],
+      "length": "medium",
+      "image": "/hairstyles/female/female-037.jpg",
+      "description": "The best of both worlds - elegant yet effortless. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
-      "id": "f-square-010",
-      "name": "Feathered Layers",
-      "faceShapes": ["square"],
+      "id": "f-square-009",
+      "name": "Romantic Waves",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "short",
+      "image": "/hairstyles/female/female-038.jpg",
+      "description": "Soft, romantic waves perfect for special occasions. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "f-square-010",
+      "name": "Face Framing Layers",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/feathered-layers.jpg",
-      "description": "Light, feathered layers that add movement and soften strong jawlines with their airy texture.",
-      "tips": ["Ask for feathered ends", "Style with round brush", "Use light hold products"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "length": "short",
+      "image": "/hairstyles/female/female-039.jpg",
+      "description": "Strategic layers that highlight your best features. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-011",
-      "name": "Side Braid",
-      "faceShapes": ["square"],
+      "name": "Textured Lob",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/side-braid.jpg",
-      "description": "A loose side braid with face-framing pieces softens angular features while adding interest.",
-      "tips": ["Keep braid loose and messy", "Pull out pieces around face", "Position over shoulder"],
-      "suitableFor": ["any texture", "medium", "thick"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-040.jpg",
+      "description": "A long bob with textured ends for a modern look. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-012",
       "name": "Curtain Bangs",
-      "faceShapes": ["square"],
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/curtain-bangs-square.jpg",
-      "description": "Soft curtain bangs that frame the face and draw attention away from a strong jawline.",
-      "tips": ["Part in the middle", "Style outward with round brush", "Keep length past cheekbones"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "length": "short",
+      "image": "/hairstyles/female/female-041.jpg",
+      "description": "Soft bangs that part in the middle and frame the face. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-013",
-      "name": "Tousled Texture",
-      "faceShapes": ["square"],
+      "name": "Shoulder Length Waves",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/tousled-texture.jpg",
-      "description": "Messy, tousled texture adds softness and a carefree vibe that complements square faces.",
-      "tips": ["Use texturizing spray liberally", "Scrunch while drying", "Embrace the mess"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
+      "length": "short",
+      "image": "/hairstyles/female/female-042.jpg",
+      "description": "Soft waves at shoulder length for everyday elegance. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
       "id": "f-square-014",
-      "name": "Long Shag",
-      "faceShapes": ["square"],
+      "name": "Layered Medium Cut",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "long",
-      "image": "/hairstyles/female/long-shag.jpg",
-      "description": "A modern long shag with lots of layers adds movement and softens angular features.",
-      "tips": ["Request lots of layers throughout", "Style with texture products", "Embrace natural movement"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-043.jpg",
+      "description": "Versatile medium length with flattering layers. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-square-015",
-      "name": "Loose Half-Up",
-      "faceShapes": ["square"],
+      "name": "Textured Shag",
+      "faceShapes": [
+        "square"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/loose-half-up.jpg",
-      "description": "A relaxed half-up style with soft waves and face-framing pieces for a feminine look.",
-      "tips": ["Keep style loose and soft", "Leave out pieces around face", "Add waves to remaining hair"],
-      "suitableFor": ["any texture", "any thickness"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-044.jpg",
+      "description": "Modern take on the classic shag with lots of movement. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-square-016",
+      "name": "Side Swept Style",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-045.jpg",
+      "description": "Deep side part creating asymmetry and elegance. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-square-017",
+      "name": "Soft Layers",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-046.jpg",
+      "description": "Gentle face-framing layers for a polished look. Especially flattering for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     }
   ]
 }

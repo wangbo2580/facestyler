@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useTranslations } from "next-intl";
 import { Hairstyle } from "@/types/hairstyle";
 import { cn } from "@/lib/utils/cn";
 
@@ -10,6 +11,8 @@ interface HairstyleCardProps {
 }
 
 export function HairstyleCard({ hairstyle, onClick }: HairstyleCardProps) {
+  const t = useTranslations("gallery");
+
   return (
     <div
       className={cn(
@@ -19,18 +22,26 @@ export function HairstyleCard({ hairstyle, onClick }: HairstyleCardProps) {
       onClick={onClick}
     >
       <div className="aspect-[3/4] relative overflow-hidden bg-muted">
-        {/* Placeholder image with gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-purple-500/20 to-pink-500/20 flex items-center justify-center">
-          <span className="text-4xl">💇‍♀️</span>
-        </div>
+        {/* Hairstyle image */}
+        {hairstyle.image ? (
+          <img
+            src={hairstyle.image}
+            alt={hairstyle.name}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-purple-500/20 to-pink-500/20 flex items-center justify-center">
+            <span className="text-4xl">💇‍♀️</span>
+          </div>
+        )}
 
         {/* Hover overlay */}
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
 
         {/* Style badge */}
         <div className="absolute top-2 right-2">
-          <span className="px-2 py-1 text-xs font-medium bg-white/90 rounded-full capitalize">
-            {hairstyle.style}
+          <span className="px-2 py-1 text-xs font-medium bg-white/90 rounded-full">
+            {t(hairstyle.style)}
           </span>
         </div>
       </div>
@@ -38,12 +49,12 @@ export function HairstyleCard({ hairstyle, onClick }: HairstyleCardProps) {
       <div className="p-4">
         <h3 className="font-medium text-sm line-clamp-1">{hairstyle.name}</h3>
         <div className="flex items-center gap-2 mt-2">
-          <span className="text-xs text-muted-foreground capitalize">
-            {hairstyle.length}
+          <span className="text-xs text-muted-foreground">
+            {t(hairstyle.length)}
           </span>
           <span className="text-muted-foreground">•</span>
-          <span className="text-xs text-muted-foreground capitalize">
-            {hairstyle.style}
+          <span className="text-xs text-muted-foreground">
+            {t(hairstyle.style)}
           </span>
         </div>
       </div>

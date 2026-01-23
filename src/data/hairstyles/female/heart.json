@@ -4,198 +4,462 @@
   "hairstyles": [
     {
       "id": "f-heart-001",
-      "name": "Chin-Length Bob",
-      "faceShapes": ["heart"],
+      "name": "Classic Long Layers",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
-      "length": "short",
-      "image": "/hairstyles/female/chin-bob.jpg",
-      "description": "A chin-length bob adds width at the jawline, balancing a wider forehead perfectly.",
-      "tips": ["Cut at chin level", "Add texture for fullness", "Avoid volume at crown"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "length": "long",
+      "image": "/hairstyles/female/female-047.jpg",
+      "description": "Soft, flowing layers that frame the face beautifully. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-002",
-      "name": "Side-Swept Bangs",
-      "faceShapes": ["heart"],
+      "name": "Beachy Waves",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/side-bangs-heart.jpg",
-      "description": "Angled bangs that sweep across the forehead minimize width at the top and add softness.",
-      "tips": ["Sweep bangs to one side", "Keep forehead partially covered", "Works with any length"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/female/female-048.jpg",
+      "description": "Effortless, tousled waves with a relaxed, summery vibe. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-heart-003",
-      "name": "Layered Lob",
-      "faceShapes": ["heart"],
+      "name": "Sleek Straight",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/layered-lob-heart.jpg",
-      "description": "A long bob with layers that add fullness around the chin area, balancing a heart-shaped face.",
-      "tips": ["Focus volume at chin level", "Add subtle layers", "Style with waves for fullness"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/female/female-049.jpg",
+      "description": "Super straight, glossy hair that looks polished and professional. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-004",
-      "name": "Waves at Chin",
-      "faceShapes": ["heart"],
+      "name": "Voluminous Curls",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/waves-chin.jpg",
-      "description": "Soft waves concentrated at chin level add width where heart faces need it most.",
-      "tips": ["Curl hair outward at chin", "Use medium barrel curling iron", "Focus waves around jaw"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/female/female-050.jpg",
+      "description": "Big, bouncy curls that add drama and glamour. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-heart-005",
-      "name": "Long Layers",
-      "faceShapes": ["heart"],
+      "name": "Side Part Glamour",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "long",
-      "image": "/hairstyles/female/long-layers-heart.jpg",
-      "description": "Long layers starting at chin level draw the eye downward and add balance to heart faces.",
-      "tips": ["Start layers at chin", "Keep ends textured", "Avoid too much volume on top"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "medium",
+      "image": "/hairstyles/female/female-051.jpg",
+      "description": "Deep side part with cascading waves for Old Hollywood glamour. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-heart-006",
-      "name": "Textured Pixie",
-      "faceShapes": ["heart"],
+      "name": "Natural Texture",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "short",
-      "image": "/hairstyles/female/textured-pixie.jpg",
-      "description": "A textured pixie with side-swept bangs flatters heart faces by softening the forehead.",
-      "tips": ["Keep bangs side-swept", "Add texture throughout", "Avoid too much height on top"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "medium",
+      "image": "/hairstyles/female/female-052.jpg",
+      "description": "Embrace your natural hair texture with this low-maintenance style. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-heart-007",
-      "name": "Soft Curls",
-      "faceShapes": ["heart"],
+      "name": "Long Shag",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/soft-curls-heart.jpg",
-      "description": "Romantic curls that add width at the bottom of the face for beautiful balance.",
-      "tips": ["Focus curls at chin and below", "Use large barrel for loose curls", "Keep crown smoother"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/female/female-053.jpg",
+      "description": "A modern long shag with lots of layers and movement. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-008",
-      "name": "Face-Framing Layers",
-      "faceShapes": ["heart"],
+      "name": "Half Up Half Down",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "classic",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
       "length": "medium",
-      "image": "/hairstyles/female/face-framing-heart.jpg",
-      "description": "Layers that frame the face starting at chin level, adding balance to heart-shaped features.",
-      "tips": ["Start layers at jaw level", "Blend smoothly", "Style outward at ends"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
+      "image": "/hairstyles/female/female-054.jpg",
+      "description": "The best of both worlds - elegant yet effortless. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-heart-009",
-      "name": "Low Bun",
-      "faceShapes": ["heart"],
+      "name": "Romantic Waves",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/low-bun-heart.jpg",
-      "description": "A soft low bun with face-framing pieces draws attention away from a wide forehead.",
-      "tips": ["Position bun low at nape", "Pull out soft pieces around face", "Keep top smooth"],
-      "suitableFor": ["any texture", "any thickness"],
-      "maintenanceLevel": "medium"
+      "length": "short",
+      "image": "/hairstyles/female/female-055.jpg",
+      "description": "Soft, romantic waves perfect for special occasions. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-heart-010",
-      "name": "Shoulder Waves",
-      "faceShapes": ["heart"],
+      "name": "Face Framing Layers",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/shoulder-waves.jpg",
-      "description": "Bouncy waves at shoulder length add fullness at the jawline for heart face balance.",
-      "tips": ["Cut at shoulder length", "Curl ends outward", "Use volumizing products at ends"],
-      "suitableFor": ["straight", "wavy", "medium"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-056.jpg",
+      "description": "Strategic layers that highlight your best features. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-011",
-      "name": "Curtain Bangs",
-      "faceShapes": ["heart"],
+      "name": "Textured Lob",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/curtain-bangs-heart.jpg",
-      "description": "Soft curtain bangs that part in the middle minimize a wider forehead beautifully.",
-      "tips": ["Part bangs in center", "Style outward at ends", "Keep length past cheekbones"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "length": "short",
+      "image": "/hairstyles/female/female-057.jpg",
+      "description": "A long bob with textured ends for a modern look. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-012",
-      "name": "Flipped Ends",
-      "faceShapes": ["heart"],
+      "name": "Curtain Bangs",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/flipped-ends.jpg",
-      "description": "Hair with ends flipped outward adds width at the chin area for perfect heart face balance.",
-      "tips": ["Use round brush to flip ends out", "Focus on chin-level flips", "Use light hold spray"],
-      "suitableFor": ["straight", "fine", "medium"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-058.jpg",
+      "description": "Soft bangs that part in the middle and frame the face. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-013",
-      "name": "Textured Lob",
-      "faceShapes": ["heart"],
+      "name": "Shoulder Length Waves",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/textured-lob-heart.jpg",
-      "description": "A textured long bob with piece-y ends adds interest and width at the jawline.",
-      "tips": ["Cut just past chin", "Add lots of texture", "Style with beach spray"],
-      "suitableFor": ["straight", "wavy", "medium"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "short",
+      "image": "/hairstyles/female/female-060.jpg",
+      "description": "Soft waves at shoulder length for everyday elegance. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
       "id": "f-heart-014",
-      "name": "Half-Up with Volume",
-      "faceShapes": ["heart"],
+      "name": "Layered Medium Cut",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/half-up-volume.jpg",
-      "description": "A half-up style with added volume at the crown balances a pointed chin elegantly.",
-      "tips": ["Add volume at crown", "Leave plenty of hair down", "Curl the down section"],
-      "suitableFor": ["any texture", "any thickness"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-061.jpg",
+      "description": "Versatile medium length with flattering layers. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-heart-015",
-      "name": "Soft Side Part",
-      "faceShapes": ["heart"],
+      "name": "Textured Shag",
+      "faceShapes": [
+        "heart"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-062.jpg",
+      "description": "Modern take on the classic shag with lots of movement. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-heart-016",
+      "name": "Side Swept Style",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
-      "length": "long",
-      "image": "/hairstyles/female/soft-side-part.jpg",
-      "description": "A soft side part with flowing hair helps balance heart-shaped facial proportions.",
-      "tips": ["Part off center", "Add soft waves", "Keep volume moderate on top"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "low"
+      "length": "short",
+      "image": "/hairstyles/female/female-063.jpg",
+      "description": "Deep side part creating asymmetry and elegance. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-heart-017",
+      "name": "Soft Layers",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-064.jpg",
+      "description": "Gentle face-framing layers for a polished look. Especially flattering for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     }
   ]
 }

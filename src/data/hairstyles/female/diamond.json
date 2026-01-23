@@ -4,198 +4,462 @@
   "hairstyles": [
     {
       "id": "f-diamond-001",
-      "name": "Side-Swept Bangs",
-      "faceShapes": ["diamond"],
+      "name": "Classic Long Layers",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/side-swept-diamond.jpg",
-      "description": "Side-swept bangs add width at the forehead, balancing prominent cheekbones beautifully.",
-      "tips": ["Sweep bangs to one side", "Keep bangs full", "Adds width at forehead"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/female/female-086.jpg",
+      "description": "Soft, flowing layers that frame the face beautifully. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-002",
-      "name": "Chin-Length Bob",
-      "faceShapes": ["diamond"],
+      "name": "Beachy Waves",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "short",
-      "image": "/hairstyles/female/chin-bob-diamond.jpg",
-      "description": "A bob hitting at chin level adds width at the narrow jawline for perfect diamond face balance.",
-      "tips": ["Cut at chin level", "Add volume at ends", "Flip ends out for more width"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/female/female-087.jpg",
+      "description": "Effortless, tousled waves with a relaxed, summery vibe. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-diamond-003",
-      "name": "Soft Layers",
-      "faceShapes": ["diamond"],
+      "name": "Sleek Straight",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/soft-layers-diamond.jpg",
-      "description": "Soft, face-framing layers add fullness at forehead and chin to complement diamond features.",
-      "tips": ["Start layers at forehead", "Add fullness at chin", "Keep cheekbone area sleeker"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "length": "long",
+      "image": "/hairstyles/female/female-088.jpg",
+      "description": "Super straight, glossy hair that looks polished and professional. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-004",
-      "name": "Volume at Forehead",
-      "faceShapes": ["diamond"],
+      "name": "Voluminous Curls",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "formal",
       "length": "long",
-      "image": "/hairstyles/female/volume-forehead.jpg",
-      "description": "Added volume at the forehead and crown balances wide cheekbones elegantly.",
-      "tips": ["Tease crown section", "Use volumizing products", "Focus fullness at top"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "image": "/hairstyles/female/female-089.jpg",
+      "description": "Big, bouncy curls that add drama and glamour. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "high"
     },
     {
       "id": "f-diamond-005",
-      "name": "Textured Lob",
-      "faceShapes": ["diamond"],
+      "name": "Side Part Glamour",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "trendy",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
       "length": "medium",
-      "image": "/hairstyles/female/textured-lob-diamond.jpg",
-      "description": "A textured long bob that adds width at the chin while minimizing cheekbone width.",
-      "tips": ["Add texture at ends", "Keep sides sleeker", "Focus volume below cheeks"],
-      "suitableFor": ["straight", "wavy", "medium"],
-      "maintenanceLevel": "low"
+      "image": "/hairstyles/female/female-090.jpg",
+      "description": "Deep side part with cascading waves for Old Hollywood glamour. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-diamond-006",
-      "name": "Curtain Bangs",
-      "faceShapes": ["diamond"],
+      "name": "Natural Texture",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "trendy",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
       "length": "medium",
-      "image": "/hairstyles/female/curtain-bangs-diamond.jpg",
-      "description": "Soft curtain bangs add width at the forehead and draw attention away from wide cheekbones.",
-      "tips": ["Part in the middle", "Style outward at ends", "Keep full and soft"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
+      "image": "/hairstyles/female/layers-1.jpg",
+      "description": "Embrace your natural hair texture with this low-maintenance style. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-diamond-007",
-      "name": "Long Waves",
-      "faceShapes": ["diamond"],
+      "name": "Long Shag",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/long-waves-diamond.jpg",
-      "description": "Flowing waves that add volume at chin level, creating balance for diamond face shapes.",
-      "tips": ["Focus waves at chin and below", "Keep cheekbone area smoother", "Use large barrel curling iron"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/female/layers-2.jpg",
+      "description": "A modern long shag with lots of layers and movement. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-008",
-      "name": "Deep Side Part",
-      "faceShapes": ["diamond"],
+      "name": "Half Up Half Down",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "long",
-      "image": "/hairstyles/female/deep-side-part.jpg",
-      "description": "A deep side part adds asymmetry and width at the forehead for flattering diamond face styling.",
-      "tips": ["Part from arch of eyebrow", "Add volume at fuller side", "Keep one side tucked behind ear"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "medium",
+      "image": "/hairstyles/female/layers-3.jpg",
+      "description": "The best of both worlds - elegant yet effortless. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
       "id": "f-diamond-009",
-      "name": "Soft Pixie",
-      "faceShapes": ["diamond"],
+      "name": "Romantic Waves",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "trendy",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
       "length": "short",
-      "image": "/hairstyles/female/soft-pixie.jpg",
-      "description": "A soft, textured pixie with side-swept fringe balances diamond face proportions perfectly.",
-      "tips": ["Keep sides tapered", "Add volume on top", "Style with light texture products"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "image": "/hairstyles/female/long-waves-1.jpg",
+      "description": "Soft, romantic waves perfect for special occasions. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "high"
     },
     {
       "id": "f-diamond-010",
-      "name": "Romantic Curls",
-      "faceShapes": ["diamond"],
+      "name": "Face Framing Layers",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/romantic-curls.jpg",
-      "description": "Soft, romantic curls that focus volume at the forehead and chin for gorgeous balance.",
-      "tips": ["Create loose curls throughout", "Add height at crown", "Focus volume at ends"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/long-waves-2.jpg",
+      "description": "Strategic layers that highlight your best features. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-011",
-      "name": "Layered Cut",
-      "faceShapes": ["diamond"],
+      "name": "Textured Lob",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/layered-cut-diamond.jpg",
-      "description": "Strategic layers that add fullness at the narrow forehead and chin areas.",
-      "tips": ["Layer around face", "Focus fullness at chin", "Add volume at crown"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/long-waves-3.jpg",
+      "description": "A long bob with textured ends for a modern look. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-012",
-      "name": "Flipped Ends",
-      "faceShapes": ["diamond"],
+      "name": "Curtain Bangs",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/flipped-ends-diamond.jpg",
-      "description": "Hair with ends flipped outward adds width at the chin, balancing prominent cheekbones.",
-      "tips": ["Flip ends outward with round brush", "Focus at chin level", "Keep cheeks area sleek"],
-      "suitableFor": ["straight", "fine", "medium"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/pixie-1.jpg",
+      "description": "Soft bangs that part in the middle and frame the face. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-013",
-      "name": "Wispy Fringe",
-      "faceShapes": ["diamond"],
+      "name": "Shoulder Length Waves",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/wispy-fringe-diamond.jpg",
-      "description": "Light, wispy bangs that add softness to the forehead and complement angular diamond features.",
-      "tips": ["Keep fringe light and airy", "Style with fingers", "Avoid heavy bangs"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "short",
+      "image": "/hairstyles/female/pixie-2.jpg",
+      "description": "Soft waves at shoulder length for everyday elegance. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-diamond-014",
-      "name": "Half-Up Style",
-      "faceShapes": ["diamond"],
+      "name": "Layered Medium Cut",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/half-up-diamond.jpg",
-      "description": "A half-up style that adds height at the crown while leaving hair to frame the chin.",
-      "tips": ["Secure at crown for height", "Leave hair to frame face", "Add waves to remaining hair"],
-      "suitableFor": ["any texture", "any thickness"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/pixie-3.jpg",
+      "description": "Versatile medium length with flattering layers. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-diamond-015",
-      "name": "Shoulder Length Waves",
-      "faceShapes": ["diamond"],
+      "name": "Textured Shag",
+      "faceShapes": [
+        "diamond"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/shoulder-waves-diamond.jpg",
-      "description": "Soft waves at shoulder length add width at the chin area for beautiful diamond face balance.",
-      "tips": ["Cut at shoulders", "Add waves throughout", "Focus volume below cheeks"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/straight-1.jpg",
+      "description": "Modern take on the classic shag with lots of movement. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-diamond-016",
+      "name": "Side Swept Style",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/straight-2.jpg",
+      "description": "Deep side part creating asymmetry and elegance. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-diamond-017",
+      "name": "Soft Layers",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/straight-3.jpg",
+      "description": "Gentle face-framing layers for a polished look. Especially flattering for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     }
   ]
 }

@@ -1,0 +1,276 @@
+{
+  "faceShape": "oval",
+  "gender": "male",
+  "hairstyles": [
+    {
+      "id": "m-oval-001",
+      "name": "Classic Crew Cut",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/classic-1.jpg",
+      "description": "Timeless short cut that works for any occasion. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-002",
+      "name": "Modern Fade",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/classic-2.jpg",
+      "description": "Clean fade with longer top for a contemporary look. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-003",
+      "name": "Textured Crop",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/classic-3.jpg",
+      "description": "Short crop with textured top for a modern edge. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-004",
+      "name": "Buzz Cut",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-001.jpg",
+      "description": "Low-maintenance buzz cut that looks sharp and clean. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-005",
+      "name": "Short Sides Long Top",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-002.jpg",
+      "description": "Versatile cut with faded sides and styled top. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-006",
+      "name": "Ivy League",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "medium",
+      "image": "/hairstyles/male/male-003.jpg",
+      "description": "Refined cut with tapered sides and styled top. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-007",
+      "name": "Textured Quiff",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-004.jpg",
+      "description": "Modern quiff with natural texture and volume. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-008",
+      "name": "Side Part",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/male/male-005.jpg",
+      "description": "Sophisticated side part for professional settings. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oval-009",
+      "name": "Slicked Back",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/male/male-006.jpg",
+      "description": "Polished slicked back style for formal occasions. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "m-oval-010",
+      "name": "Messy Top",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/male/male-007.jpg",
+      "description": "Relaxed, tousled style with natural movement. Works great for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    }
+  ]
+}

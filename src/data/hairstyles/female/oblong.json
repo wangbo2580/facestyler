@@ -4,198 +4,462 @@
   "hairstyles": [
     {
       "id": "f-oblong-001",
-      "name": "Full Bangs",
-      "faceShapes": ["oblong"],
+      "name": "Classic Long Layers",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/full-bangs.jpg",
-      "description": "Full, straight-across bangs visually shorten an oblong face by covering part of the forehead.",
-      "tips": ["Cut bangs straight across", "Keep them thick and full", "Style with round brush"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
-      "maintenanceLevel": "high"
-    },
-    {
-      "id": "f-oblong-002",
-      "name": "Shoulder-Length Waves",
-      "faceShapes": ["oblong"],
-      "gender": "female",
-      "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/shoulder-waves-oblong.jpg",
-      "description": "Waves at shoulder length add width and break up the vertical lines of an oblong face.",
-      "tips": ["Keep length at shoulders", "Add waves for width", "Avoid very long styles"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/female/female-066.jpg",
+      "description": "Soft, flowing layers that frame the face beautifully. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
-      "id": "f-oblong-003",
-      "name": "Layered Bob",
-      "faceShapes": ["oblong"],
+      "id": "f-oblong-002",
+      "name": "Beachy Waves",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/female/female-067.jpg",
+      "description": "Effortless, tousled waves with a relaxed, summery vibe. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    },
+    {
+      "id": "f-oblong-003",
+      "name": "Sleek Straight",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
-      "length": "short",
-      "image": "/hairstyles/female/layered-bob-oblong.jpg",
-      "description": "A layered bob with volume at the sides adds width that balances a longer face shape.",
-      "tips": ["Add layers for volume", "Keep sides full", "Avoid flat styles"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "length": "long",
+      "image": "/hairstyles/female/female-068.jpg",
+      "description": "Super straight, glossy hair that looks polished and professional. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-oblong-004",
-      "name": "Side Volume",
-      "faceShapes": ["oblong"],
+      "name": "Voluminous Curls",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "formal",
-      "length": "medium",
-      "image": "/hairstyles/female/side-volume.jpg",
-      "description": "A style with volume concentrated at the sides creates the illusion of a wider face.",
-      "tips": ["Use rollers at sides", "Avoid height at crown", "Focus fullness at ear level"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "length": "long",
+      "image": "/hairstyles/female/female-069.jpg",
+      "description": "Big, bouncy curls that add drama and glamour. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "high"
     },
     {
       "id": "f-oblong-005",
-      "name": "Chin-Length Cut",
-      "faceShapes": ["oblong"],
+      "name": "Side Part Glamour",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "short",
-      "image": "/hairstyles/female/chin-length.jpg",
-      "description": "A cut that hits at chin level with added width is ideal for shortening an oblong appearance.",
-      "tips": ["Cut at chin level", "Add volume at sides", "Style with texture"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
-    },
-    {
-      "id": "f-oblong-006",
-      "name": "Soft Curls",
-      "faceShapes": ["oblong"],
-      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "formal",
       "length": "medium",
-      "image": "/hairstyles/female/soft-curls-oblong.jpg",
-      "description": "Soft, bouncy curls add width and volume that balance an oblong face beautifully.",
-      "tips": ["Focus curls at sides", "Use medium barrel iron", "Keep length moderate"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
+      "image": "/hairstyles/female/female-070.jpg",
+      "description": "Deep side part with cascading waves for Old Hollywood glamour. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "high"
     },
     {
-      "id": "f-oblong-007",
-      "name": "Textured Shag",
-      "faceShapes": ["oblong"],
+      "id": "f-oblong-006",
+      "name": "Natural Texture",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "trendy",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
       "length": "medium",
-      "image": "/hairstyles/female/shag-oblong.jpg",
-      "description": "A modern shag with lots of layers and texture adds dimension and width to oblong faces.",
-      "tips": ["Add layers throughout", "Create texture with products", "Embrace natural volume"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
+      "image": "/hairstyles/female/female-071.jpg",
+      "description": "Embrace your natural hair texture with this low-maintenance style. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
-      "id": "f-oblong-008",
-      "name": "Side-Parted Bob",
-      "faceShapes": ["oblong"],
+      "id": "f-oblong-007",
+      "name": "Long Shag",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "short",
-      "image": "/hairstyles/female/side-bob-oblong.jpg",
-      "description": "A bob with a deep side part adds asymmetry that breaks up the length of an oblong face.",
-      "tips": ["Part deeply to one side", "Add volume on fuller side", "Keep length at jaw"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/female/female-072.jpg",
+      "description": "A modern long shag with lots of layers and movement. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-oblong-008",
+      "name": "Half Up Half Down",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "medium",
+      "image": "/hairstyles/female/female-073.jpg",
+      "description": "The best of both worlds - elegant yet effortless. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-oblong-009",
-      "name": "Wispy Bangs",
-      "faceShapes": ["oblong"],
+      "name": "Romantic Waves",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/wispy-bangs-oblong.jpg",
-      "description": "Light, wispy bangs help shorten the appearance of an oblong face while staying soft.",
-      "tips": ["Keep bangs light and textured", "Style with fingers", "Don't cut too short"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
-      "maintenanceLevel": "medium"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "short",
+      "image": "/hairstyles/female/female-074.jpg",
+      "description": "Soft, romantic waves perfect for special occasions. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-oblong-010",
-      "name": "Volume at Sides",
-      "faceShapes": ["oblong"],
+      "name": "Face Framing Layers",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/volume-sides.jpg",
-      "description": "A style that maximizes volume at the sides creates beautiful balance for oblong faces.",
-      "tips": ["Blow dry with focus on sides", "Use volumizing products", "Avoid flat top"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
+      "length": "short",
+      "image": "/hairstyles/female/female-076.jpg",
+      "description": "Strategic layers that highlight your best features. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-oblong-011",
-      "name": "Rounded Layers",
-      "faceShapes": ["oblong"],
+      "name": "Textured Lob",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/rounded-layers.jpg",
-      "description": "Rounded layers that curve inward at the ends add fullness and width to balance length.",
-      "tips": ["Style ends inward", "Use round brush", "Focus fullness at cheekbone level"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-078.jpg",
+      "description": "A long bob with textured ends for a modern look. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-oblong-012",
-      "name": "Low Waves",
-      "faceShapes": ["oblong"],
-      "gender": "female",
-      "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/low-waves.jpg",
-      "description": "Relaxed waves at shoulder length add width without elongating the face further.",
-      "tips": ["Keep length at shoulders or shorter", "Create loose waves", "Add texture spray"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "low"
-    },
-    {
-      "id": "f-oblong-013",
       "name": "Curtain Bangs",
-      "faceShapes": ["oblong"],
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/curtain-bangs-oblong.jpg",
-      "description": "Soft curtain bangs that frame the face and shorten the appearance of an oblong shape.",
-      "tips": ["Part bangs in middle", "Style outward", "Keep length past cheekbones"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
+      "length": "short",
+      "image": "/hairstyles/female/female-079.jpg",
+      "description": "Soft bangs that part in the middle and frame the face. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
-      "id": "f-oblong-014",
-      "name": "Full-Bodied Curls",
-      "faceShapes": ["oblong"],
+      "id": "f-oblong-013",
+      "name": "Shoulder Length Waves",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "medium",
-      "image": "/hairstyles/female/full-curls.jpg",
-      "description": "Big, voluminous curls that add maximum width for a perfectly balanced look.",
-      "tips": ["Use hot rollers for volume", "Focus on side sections", "Set with strong hold spray"],
-      "suitableFor": ["wavy", "curly", "medium", "thick"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "short",
+      "image": "/hairstyles/female/female-080.jpg",
+      "description": "Soft waves at shoulder length for everyday elegance. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    },
+    {
+      "id": "f-oblong-014",
+      "name": "Layered Medium Cut",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-081.jpg",
+      "description": "Versatile medium length with flattering layers. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-oblong-015",
-      "name": "Blunt Bob with Bangs",
-      "faceShapes": ["oblong"],
+      "name": "Textured Shag",
+      "faceShapes": [
+        "oblong"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "trendy",
       "length": "short",
-      "image": "/hairstyles/female/blunt-bob-bangs.jpg",
-      "description": "A blunt bob with full bangs creates strong horizontal lines that shorten an oblong face.",
-      "tips": ["Keep bob blunt at ends", "Full straight bangs", "Cut at jaw or above"],
-      "suitableFor": ["straight", "fine", "medium"],
-      "maintenanceLevel": "high"
+      "image": "/hairstyles/female/female-082.jpg",
+      "description": "Modern take on the classic shag with lots of movement. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-oblong-016",
+      "name": "Side Swept Style",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-084.jpg",
+      "description": "Deep side part creating asymmetry and elegance. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-oblong-017",
+      "name": "Soft Layers",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-085.jpg",
+      "description": "Gentle face-framing layers for a polished look. Especially flattering for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     }
   ]
 }

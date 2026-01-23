@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useCallback, useState } from "react";
-import { Upload, Camera, X, Image as ImageIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Upload, X, Image as ImageIcon } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { Button } from "@/components/ui/button";
 
@@ -18,17 +19,18 @@ export function ImageUploader({
   selectedImage,
   isLoading = false,
 }: ImageUploaderProps) {
+  const t = useTranslations("detector");
   const [isDragging, setIsDragging] = useState(false);
 
   const handleFile = useCallback(
     (file: File) => {
       if (!file.type.startsWith("image/")) {
-        alert("Please select an image file");
+        alert(t("errorImageType"));
         return;
       }
 
       if (file.size > 10 * 1024 * 1024) {
-        alert("File size must be less than 10MB");
+        alert(t("errorFileSize"));
         return;
       }
 
@@ -39,7 +41,7 @@ export function ImageUploader({
       };
       reader.readAsDataURL(file);
     },
-    [onImageSelect]
+    [onImageSelect, t]
   );
 
   const handleDrop = useCallback(
@@ -88,7 +90,7 @@ export function ImageUploader({
             <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
               <div className="flex flex-col items-center text-white">
                 <div className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin" />
-                <span className="mt-4 text-sm">Analyzing face shape...</span>
+                <span className="mt-4 text-sm">{t("analyzing")}</span>
               </div>
             </div>
           )}
@@ -130,14 +132,14 @@ export function ImageUploader({
             <Upload className="w-8 h-8 text-primary" />
           </div>
 
-          <h3 className="text-lg font-semibold mb-2">Upload Your Photo</h3>
+          <h3 className="text-lg font-semibold mb-2">{t("uploadTitle")}</h3>
           <p className="text-sm text-muted-foreground mb-4">
-            Drag and drop your photo here, or click to browse
+            {t("uploadDesc")}
           </p>
 
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <ImageIcon className="w-4 h-4" />
-            <span>JPG, PNG, or WebP up to 10MB</span>
+            <span>{t("fileTypes")}</span>
           </div>
         </div>
       </label>
@@ -145,7 +147,7 @@ export function ImageUploader({
       <div className="mt-4 text-center">
         <p className="text-xs text-muted-foreground flex items-center justify-center gap-1">
           <span className="inline-block w-2 h-2 bg-green-500 rounded-full" />
-          Your photo is processed locally and never uploaded
+          {t("localProcessing")}
         </p>
       </div>
     </div>

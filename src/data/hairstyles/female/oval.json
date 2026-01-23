@@ -5,197 +5,469 @@
     {
       "id": "f-oval-001",
       "name": "Classic Long Layers",
-      "faceShapes": ["oval"],
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "classic",
       "length": "long",
-      "image": "/hairstyles/female/classic-long-layers.jpg",
-      "description": "Soft, flowing layers that frame the face beautifully. Perfect for oval faces as it maintains the natural balance.",
-      "tips": ["Ask your stylist for face-framing layers", "Use a round brush for volume at the ends", "Works great with subtle highlights"],
-      "suitableFor": ["straight", "wavy", "thick", "medium"],
+      "image": "/hairstyles/female/bangs-1.jpg",
+      "description": "Soft, flowing layers that frame the face beautifully. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "medium"
     },
     {
       "id": "f-oval-002",
-      "name": "Blunt Bob",
-      "faceShapes": ["oval"],
-      "gender": "female",
-      "style": "trendy",
-      "length": "short",
-      "image": "/hairstyles/female/blunt-bob.jpg",
-      "description": "A sharp, chin-length bob that creates a sleek and modern look. Oval faces can pull off this bold style effortlessly.",
-      "tips": ["Keep ends blunt for maximum impact", "Use a flat iron for that sleek finish", "Regular trims every 6-8 weeks"],
-      "suitableFor": ["straight", "fine", "medium"],
-      "maintenanceLevel": "high"
-    },
-    {
-      "id": "f-oval-003",
       "name": "Beachy Waves",
-      "faceShapes": ["oval"],
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "caucasian",
+        "hispanic",
+        "mixed"
+      ],
       "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/beachy-waves.jpg",
-      "description": "Effortless, tousled waves that give a relaxed, summery vibe. Perfect for oval faces looking for low-maintenance glamour.",
-      "tips": ["Use sea salt spray for texture", "Air dry or use a diffuser", "Scrunch while drying for more wave"],
-      "suitableFor": ["wavy", "curly", "thick", "medium"],
+      "length": "long",
+      "image": "/hairstyles/female/bangs-2.jpg",
+      "description": "Effortless, tousled waves with a relaxed, summery vibe. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
-      "id": "f-oval-004",
-      "name": "Sleek Ponytail",
-      "faceShapes": ["oval"],
+      "id": "f-oval-003",
+      "name": "Sleek Straight",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "asian",
+        "caucasian"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/female/bangs-3.jpg",
+      "description": "Super straight, glossy hair that looks polished and professional. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-oval-004",
+      "name": "Voluminous Curls",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "caucasian",
+        "african"
+      ],
       "style": "formal",
       "length": "long",
-      "image": "/hairstyles/female/sleek-ponytail.jpg",
-      "description": "A polished, high ponytail that showcases your balanced features. Ideal for formal events or a chic everyday look.",
-      "tips": ["Use gel for sleek finish", "Wrap hair around elastic for elegance", "Add extensions for extra length"],
-      "suitableFor": ["straight", "any texture"],
-      "maintenanceLevel": "medium"
+      "image": "/hairstyles/female/bob-1.jpg",
+      "description": "Big, bouncy curls that add drama and glamour. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-oval-005",
-      "name": "Curtain Bangs",
-      "faceShapes": ["oval"],
+      "name": "Side Part Glamour",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "trendy",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
       "length": "medium",
-      "image": "/hairstyles/female/curtain-bangs.jpg",
-      "description": "Soft, face-framing bangs that part in the middle and sweep to the sides. Adds a retro-modern touch to any length.",
-      "tips": ["Blow dry with a round brush", "Start longer - you can always cut shorter", "Works with most hair textures"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "medium"
+      "image": "/hairstyles/female/bob-2.jpg",
+      "description": "Deep side part with cascading waves for Old Hollywood glamour. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-oval-006",
-      "name": "Pixie Cut",
-      "faceShapes": ["oval"],
+      "name": "Natural Texture",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "short",
-      "image": "/hairstyles/female/pixie-cut.jpg",
-      "description": "A bold, short cut that highlights your facial features. Oval faces are ideal for this daring style.",
-      "tips": ["Use pomade for texture", "Regular trims every 4-6 weeks", "Play with different styling products"],
-      "suitableFor": ["straight", "wavy", "fine", "medium"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "medium",
+      "image": "/hairstyles/female/bob-3.jpg",
+      "description": "Embrace your natural hair texture with this low-maintenance style. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
     },
     {
       "id": "f-oval-007",
-      "name": "Voluminous Curls",
-      "faceShapes": ["oval"],
+      "name": "Long Shag",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/voluminous-curls.jpg",
-      "description": "Big, bouncy curls that add drama and glamour. Perfect for special occasions or making a statement.",
-      "tips": ["Use hot rollers or curling iron", "Set with hairspray", "Brush out for softer waves"],
-      "suitableFor": ["any texture", "medium", "thick"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/female/curly-1.jpg",
+      "description": "A modern long shag with lots of layers and movement. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-oval-008",
-      "name": "Messy Bun",
-      "faceShapes": ["oval"],
+      "name": "Half Up Half Down",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
       "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/messy-bun.jpg",
-      "description": "An effortlessly chic updo that looks polished yet relaxed. Great for both casual and dressed-up occasions.",
-      "tips": ["Don't overthink it - messy is the goal", "Pull out face-framing pieces", "Secure with bobby pins"],
-      "suitableFor": ["any texture", "any thickness"],
+      "length": "medium",
+      "image": "/hairstyles/female/curly-2.jpg",
+      "description": "The best of both worlds - elegant yet effortless. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
       "id": "f-oval-009",
-      "name": "Shoulder Length Lob",
-      "faceShapes": ["oval"],
+      "name": "Romantic Waves",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "medium",
-      "image": "/hairstyles/female/shoulder-lob.jpg",
-      "description": "A timeless, versatile cut that sits at the shoulders. Easy to style and flatters oval faces beautifully.",
-      "tips": ["Add subtle layers for movement", "Works well straight or wavy", "Low maintenance styling"],
-      "suitableFor": ["straight", "wavy", "any thickness"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "caucasian",
+        "hispanic",
+        "mixed"
+      ],
+      "style": "formal",
+      "length": "short",
+      "image": "/hairstyles/female/curly-3.jpg",
+      "description": "Soft, romantic waves perfect for special occasions. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
     },
     {
       "id": "f-oval-010",
-      "name": "Side Part Glamour",
-      "faceShapes": ["oval"],
+      "name": "Face Framing Layers",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/side-part-glamour.jpg",
-      "description": "A deep side part with cascading waves for Old Hollywood glamour. Elegant and sophisticated.",
-      "tips": ["Use shine serum for glossy finish", "Create with large barrel curling iron", "Pin one side behind ear for drama"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-003.jpg",
+      "description": "Strategic layers that highlight your best features. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-oval-011",
-      "name": "Natural Texture",
-      "faceShapes": ["oval"],
+      "name": "Textured Lob",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "medium",
-      "image": "/hairstyles/female/natural-texture.jpg",
-      "description": "Embrace your natural hair texture with this low-maintenance style. Let your curls or waves shine.",
-      "tips": ["Use curl-defining products", "Avoid brushing when dry", "Refresh with water and product"],
-      "suitableFor": ["curly", "wavy", "coily"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-004.jpg",
+      "description": "A long bob with textured ends for a modern look. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-oval-012",
-      "name": "Straight and Sleek",
-      "faceShapes": ["oval"],
+      "name": "Curtain Bangs",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "classic",
-      "length": "long",
-      "image": "/hairstyles/female/straight-sleek.jpg",
-      "description": "Super straight, glossy hair that looks polished and professional. A timeless choice for oval faces.",
-      "tips": ["Use heat protectant", "Flat iron in sections", "Finish with shine spray"],
-      "suitableFor": ["straight", "fine", "medium"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "asian"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-005.jpg",
+      "description": "Soft bangs that part in the middle and frame the face. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-oval-013",
-      "name": "Textured Shag",
-      "faceShapes": ["oval"],
+      "name": "Shoulder Length Waves",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "trendy",
-      "length": "medium",
-      "image": "/hairstyles/female/textured-shag.jpg",
-      "description": "A modern take on the classic shag with lots of layers and movement. Edgy yet feminine.",
-      "tips": ["Use texturizing spray", "Rough dry with fingers", "Embrace the bedhead look"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
+      "ethnicity": [
+        "caucasian",
+        "hispanic",
+        "mixed"
+      ],
+      "style": "casual",
+      "length": "short",
+      "image": "/hairstyles/female/female-006.jpg",
+      "description": "Soft waves at shoulder length for everyday elegance. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
       "maintenanceLevel": "low"
     },
     {
       "id": "f-oval-014",
-      "name": "Half Up Half Down",
-      "faceShapes": ["oval"],
+      "name": "Layered Medium Cut",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "casual",
-      "length": "long",
-      "image": "/hairstyles/female/half-up-half-down.jpg",
-      "description": "The best of both worlds - hair pulled back from the face while still showing off length.",
-      "tips": ["Secure with cute clips or scrunchie", "Leave face-framing pieces out", "Add waves to the down portion"],
-      "suitableFor": ["any texture", "any thickness"],
-      "maintenanceLevel": "low"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-007.jpg",
+      "description": "Versatile medium length with flattering layers. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     },
     {
       "id": "f-oval-015",
-      "name": "French Twist",
-      "faceShapes": ["oval"],
+      "name": "Textured Shag",
+      "faceShapes": [
+        "oval"
+      ],
       "gender": "female",
-      "style": "formal",
-      "length": "long",
-      "image": "/hairstyles/female/french-twist.jpg",
-      "description": "An elegant updo that's perfect for formal occasions. Classic and sophisticated.",
-      "tips": ["Use plenty of bobby pins", "Tease hair for volume", "Finish with hairspray"],
-      "suitableFor": ["straight", "wavy", "medium", "thick"],
-      "maintenanceLevel": "high"
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/female/female-008.jpg",
+      "description": "Modern take on the classic shag with lots of movement. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-oval-016",
+      "name": "Side Swept Style",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-009.jpg",
+      "description": "Deep side part creating asymmetry and elegance. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "f-oval-017",
+      "name": "Soft Layers",
+      "faceShapes": [
+        "oval"
+      ],
+      "gender": "female",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/female/female-011.jpg",
+      "description": "Gentle face-framing layers for a polished look. Especially flattering for oval face shapes.",
+      "tips": [
+        "You can pull off almost any hairstyle",
+        "Experiment with different lengths",
+        "Consult with your stylist for personalized advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
     }
   ]
 }

@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import { useTranslations } from "next-intl";
 import { Hairstyle, HairstyleStyle, HairstyleLength } from "@/types/hairstyle";
 import { HairstyleCard } from "./HairstyleCard";
 import { HairstyleModal } from "./HairstyleModal";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils/cn";
 
 interface HairstyleGalleryProps {
   hairstyles: Hairstyle[];
@@ -13,29 +13,30 @@ interface HairstyleGalleryProps {
   showFilters?: boolean;
 }
 
-const STYLE_OPTIONS: { value: HairstyleStyle | "all"; label: string }[] = [
-  { value: "all", label: "All Styles" },
-  { value: "casual", label: "Casual" },
-  { value: "formal", label: "Formal" },
-  { value: "trendy", label: "Trendy" },
-  { value: "classic", label: "Classic" },
-];
-
-const LENGTH_OPTIONS: { value: HairstyleLength | "all"; label: string }[] = [
-  { value: "all", label: "All Lengths" },
-  { value: "short", label: "Short" },
-  { value: "medium", label: "Medium" },
-  { value: "long", label: "Long" },
-];
-
 export function HairstyleGallery({
   hairstyles,
   title,
   showFilters = true,
 }: HairstyleGalleryProps) {
+  const t = useTranslations("gallery");
   const [selectedStyle, setSelectedStyle] = useState<HairstyleStyle | "all">("all");
   const [selectedLength, setSelectedLength] = useState<HairstyleLength | "all">("all");
   const [selectedHairstyle, setSelectedHairstyle] = useState<Hairstyle | null>(null);
+
+  const styleOptions: { value: HairstyleStyle | "all"; labelKey: string }[] = [
+    { value: "all", labelKey: "allStyles" },
+    { value: "casual", labelKey: "casual" },
+    { value: "formal", labelKey: "formal" },
+    { value: "trendy", labelKey: "trendy" },
+    { value: "classic", labelKey: "classic" },
+  ];
+
+  const lengthOptions: { value: HairstyleLength | "all"; labelKey: string }[] = [
+    { value: "all", labelKey: "allLengths" },
+    { value: "short", labelKey: "short" },
+    { value: "medium", labelKey: "medium" },
+    { value: "long", labelKey: "long" },
+  ];
 
   const filteredHairstyles = useMemo(() => {
     return hairstyles.filter((h) => {
@@ -55,27 +56,27 @@ export function HairstyleGallery({
       {showFilters && (
         <div className="flex flex-wrap gap-4 mb-8">
           <div className="flex flex-wrap gap-2">
-            {STYLE_OPTIONS.map((option) => (
+            {styleOptions.map((option) => (
               <Button
                 key={option.value}
                 variant={selectedStyle === option.value ? "default" : "outline"}
                 size="sm"
                 onClick={() => setSelectedStyle(option.value)}
               >
-                {option.label}
+                {t(option.labelKey)}
               </Button>
             ))}
           </div>
 
           <div className="flex flex-wrap gap-2">
-            {LENGTH_OPTIONS.map((option) => (
+            {lengthOptions.map((option) => (
               <Button
                 key={option.value}
                 variant={selectedLength === option.value ? "default" : "outline"}
                 size="sm"
                 onClick={() => setSelectedLength(option.value)}
               >
-                {option.label}
+                {t(option.labelKey)}
               </Button>
             ))}
           </div>
@@ -96,7 +97,7 @@ export function HairstyleGallery({
       {filteredHairstyles.length === 0 && (
         <div className="text-center py-12">
           <p className="text-muted-foreground">
-            No hairstyles match your filters. Try adjusting your selection.
+            {t("noMatches")}
           </p>
         </div>
       )}

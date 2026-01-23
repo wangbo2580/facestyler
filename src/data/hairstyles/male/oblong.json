@@ -1,0 +1,276 @@
+{
+  "faceShape": "oblong",
+  "gender": "male",
+  "hairstyles": [
+    {
+      "id": "m-oblong-001",
+      "name": "Classic Crew Cut",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-039.jpg",
+      "description": "Timeless short cut that works for any occasion. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-002",
+      "name": "Modern Fade",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-040.jpg",
+      "description": "Clean fade with longer top for a contemporary look. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-003",
+      "name": "Textured Crop",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-041.jpg",
+      "description": "Short crop with textured top for a modern edge. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-004",
+      "name": "Buzz Cut",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-042.jpg",
+      "description": "Low-maintenance buzz cut that looks sharp and clean. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-005",
+      "name": "Short Sides Long Top",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-043.jpg",
+      "description": "Versatile cut with faded sides and styled top. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-006",
+      "name": "Ivy League",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "medium",
+      "image": "/hairstyles/male/male-044.jpg",
+      "description": "Refined cut with tapered sides and styled top. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-007",
+      "name": "Textured Quiff",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-045.jpg",
+      "description": "Modern quiff with natural texture and volume. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-008",
+      "name": "Side Part",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/male/male-046.jpg",
+      "description": "Sophisticated side part for professional settings. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-oblong-009",
+      "name": "Slicked Back",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/male/male-047.jpg",
+      "description": "Polished slicked back style for formal occasions. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "m-oblong-010",
+      "name": "Messy Top",
+      "faceShapes": [
+        "oblong"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/male/male-048.jpg",
+      "description": "Relaxed, tousled style with natural movement. Works great for oblong face shapes.",
+      "tips": [
+        "Add width and volume at the sides",
+        "Bangs can shorten your face appearance",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useRef, useCallback } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import { Download, Share2, Link, Twitter, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FaceShape } from "@/types/hairstyle";
-import { FACE_SHAPES } from "@/lib/constants/faceShapes";
 
 interface ShareCardProps {
   faceShape: FaceShape;
@@ -13,14 +13,20 @@ interface ShareCardProps {
 }
 
 export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
+  const t = useTranslations("result");
+  const tCommon = useTranslations("common");
+  const tShapes = useTranslations("faceShapes");
+  const locale = useLocale();
   const cardRef = useRef<HTMLDivElement>(null);
-  const faceShapeInfo = FACE_SHAPES[faceShape];
+
+  const shapeName = tShapes(`${faceShape}.name`);
+  const characteristics = tShapes.raw(`${faceShape}.characteristics`) as string[];
+  const celebrities = tShapes.raw(`${faceShape}.celebrities`) as string[];
 
   const handleDownload = useCallback(async () => {
     if (!cardRef.current) return;
 
     try {
-      // Dynamic import to avoid SSR issues
       const html2canvas = (await import("html2canvas")).default;
       const canvas = await html2canvas(cardRef.current, {
         scale: 2,
@@ -33,27 +39,27 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
       link.click();
     } catch (error) {
       console.error("Failed to generate image:", error);
-      alert("Failed to generate image. Please try again.");
     }
   }, [faceShape]);
 
   const handleCopyLink = useCallback(async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
-      alert("Link copied to clipboard!");
     } catch (error) {
       console.error("Failed to copy link:", error);
     }
   }, []);
 
   const handleShareTwitter = useCallback(() => {
-    const text = `I just discovered my face shape is ${faceShapeInfo.name}! Find your perfect hairstyle at`;
+    const text = locale === "zh"
+      ? `我刚刚发现我的脸型是${shapeName}！在这里找到你的完美发型：`
+      : `I just discovered my face shape is ${shapeName}! Find your perfect hairstyle at`;
     const url = encodeURIComponent(window.location.origin);
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${url}`,
       "_blank"
     );
-  }, [faceShapeInfo.name]);
+  }, [shapeName, locale]);
 
   const handleShareFacebook = useCallback(() => {
     const url = encodeURIComponent(window.location.origin);
@@ -73,7 +79,7 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
         {/* Header */}
         <div className="bg-gradient-to-r from-primary to-purple-600 text-white p-4 text-center">
           <h3 className="text-xl font-bold">FaceStyler</h3>
-          <p className="text-sm opacity-90">Your Face Shape Result</p>
+          <p className="text-sm opacity-90">{t("title")}</p>
         </div>
 
         {/* Content */}
@@ -95,20 +101,22 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
 
           {/* Face Shape Result */}
           <div className="text-center mb-4">
-            <p className="text-sm text-muted-foreground">Your face shape is</p>
-            <h2 className="text-3xl font-bold text-primary capitalize mt-1">
-              {faceShapeInfo.name}
+            <p className="text-sm text-muted-foreground">{t("faceShapeIs")}</p>
+            <h2 className="text-3xl font-bold text-primary mt-1">
+              {shapeName}
             </h2>
             <p className="text-sm text-muted-foreground mt-1">
-              {Math.round(confidence * 100)}% confidence
+              {tCommon("confidence", { percent: Math.round(confidence * 100) })}
             </p>
           </div>
 
           {/* Key Characteristics */}
           <div className="bg-muted/50 rounded-lg p-4 mb-4">
-            <h4 className="font-semibold text-sm mb-2">Key Characteristics:</h4>
+            <h4 className="font-semibold text-sm mb-2">
+              {locale === "zh" ? "主要特征：" : "Key Characteristics:"}
+            </h4>
             <ul className="text-sm text-muted-foreground space-y-1">
-              {faceShapeInfo.characteristics.slice(0, 3).map((char, i) => (
+              {characteristics.slice(0, 3).map((char, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <span className="text-primary">•</span>
                   <span>{char}</span>
@@ -119,9 +127,11 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
 
           {/* Celebrities */}
           <div className="text-center text-sm">
-            <span className="text-muted-foreground">Celebrities with your face shape: </span>
+            <span className="text-muted-foreground">
+              {locale === "zh" ? "拥有相同脸型的明星：" : "Celebrities with your face shape: "}
+            </span>
             <span className="font-medium">
-              {faceShapeInfo.celebrities.slice(0, 2).join(", ")}
+              {celebrities.slice(0, 2).join(", ")}
             </span>
           </div>
         </div>
@@ -129,7 +139,7 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
         {/* Footer */}
         <div className="bg-muted/50 p-3 text-center">
           <p className="text-xs text-muted-foreground">
-            facestyler.com • Find your perfect hairstyle
+            facestyler.com • {locale === "zh" ? "找到你的完美发型" : "Find your perfect hairstyle"}
           </p>
         </div>
       </div>
@@ -138,7 +148,7 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
       <div className="flex flex-wrap justify-center gap-3">
         <Button onClick={handleDownload} className="flex items-center gap-2">
           <Download className="w-4 h-4" />
-          Download
+          {tCommon("download")}
         </Button>
         <Button
           variant="outline"
@@ -146,7 +156,7 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
           className="flex items-center gap-2"
         >
           <Link className="w-4 h-4" />
-          Copy Link
+          {locale === "zh" ? "复制链接" : "Copy Link"}
         </Button>
         <Button
           variant="outline"

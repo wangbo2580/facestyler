@@ -1,0 +1,276 @@
+{
+  "faceShape": "round",
+  "gender": "male",
+  "hairstyles": [
+    {
+      "id": "m-round-001",
+      "name": "Classic Crew Cut",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-008.jpg",
+      "description": "Timeless short cut that works for any occasion. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-002",
+      "name": "Modern Fade",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-009.jpg",
+      "description": "Clean fade with longer top for a contemporary look. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-003",
+      "name": "Textured Crop",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-010.jpg",
+      "description": "Short crop with textured top for a modern edge. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-004",
+      "name": "Buzz Cut",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-011.jpg",
+      "description": "Low-maintenance buzz cut that looks sharp and clean. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-005",
+      "name": "Short Sides Long Top",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-013.jpg",
+      "description": "Versatile cut with faded sides and styled top. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-006",
+      "name": "Ivy League",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "medium",
+      "image": "/hairstyles/male/male-014.jpg",
+      "description": "Refined cut with tapered sides and styled top. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-007",
+      "name": "Textured Quiff",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-015.jpg",
+      "description": "Modern quiff with natural texture and volume. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-008",
+      "name": "Side Part",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/male/male-016.jpg",
+      "description": "Sophisticated side part for professional settings. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-round-009",
+      "name": "Slicked Back",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/male/male-017.jpg",
+      "description": "Polished slicked back style for formal occasions. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "m-round-010",
+      "name": "Messy Top",
+      "faceShapes": [
+        "round"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/male/male-018.jpg",
+      "description": "Relaxed, tousled style with natural movement. Works great for round face shapes.",
+      "tips": [
+        "Add height and volume at the crown",
+        "Try side-swept bangs",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    }
+  ]
+}

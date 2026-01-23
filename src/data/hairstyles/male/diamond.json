@@ -1,0 +1,276 @@
+{
+  "faceShape": "diamond",
+  "gender": "male",
+  "hairstyles": [
+    {
+      "id": "m-diamond-001",
+      "name": "Classic Crew Cut",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-049.jpg",
+      "description": "Timeless short cut that works for any occasion. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-002",
+      "name": "Modern Fade",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-051.jpg",
+      "description": "Clean fade with longer top for a contemporary look. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-003",
+      "name": "Textured Crop",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-052.jpg",
+      "description": "Short crop with textured top for a modern edge. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-004",
+      "name": "Buzz Cut",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-053.jpg",
+      "description": "Low-maintenance buzz cut that looks sharp and clean. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-005",
+      "name": "Short Sides Long Top",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-054.jpg",
+      "description": "Versatile cut with faded sides and styled top. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-006",
+      "name": "Ivy League",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "medium",
+      "image": "/hairstyles/male/male-055.jpg",
+      "description": "Refined cut with tapered sides and styled top. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-007",
+      "name": "Textured Quiff",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-056.jpg",
+      "description": "Modern quiff with natural texture and volume. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-008",
+      "name": "Side Part",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/male/male-058.jpg",
+      "description": "Sophisticated side part for professional settings. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-diamond-009",
+      "name": "Slicked Back",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/male/male-059.jpg",
+      "description": "Polished slicked back style for formal occasions. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "m-diamond-010",
+      "name": "Messy Top",
+      "faceShapes": [
+        "diamond"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/male/male-060.jpg",
+      "description": "Relaxed, tousled style with natural movement. Works great for diamond face shapes.",
+      "tips": [
+        "Add fullness at the forehead and chin",
+        "Side-swept bangs add width at forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    }
+  ]
+}

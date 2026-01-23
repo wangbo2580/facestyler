@@ -1,62 +1,67 @@
 import { MetadataRoute } from "next";
+import { locales } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://facestyler.com";
 
-  return [
-    {
-      url: baseUrl,
+  const faceShapePages = [
+    "hairstyle-for-oval-face",
+    "hairstyle-for-round-face",
+    "hairstyle-for-square-face",
+    "hairstyle-for-heart-face",
+    "hairstyle-for-oblong-face",
+    "hairstyle-for-diamond-face",
+  ];
+
+  const staticPages = ["about", "privacy"];
+
+  const urls: MetadataRoute.Sitemap = [];
+
+  // Generate URLs for each locale
+  for (const locale of locales) {
+    // Home page
+    urls.push({
+      url: `${baseUrl}/${locale}`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
-    },
-    {
-      url: `${baseUrl}/hairstyle-for-oval-face`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/hairstyle-for-round-face`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/hairstyle-for-square-face`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/hairstyle-for-heart-face`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/hairstyle-for-oblong-face`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/hairstyle-for-diamond-face`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-  ];
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map((l) => [l, `${baseUrl}/${l}`])
+        ),
+      },
+    });
+
+    // Face shape pages
+    for (const page of faceShapePages) {
+      urls.push({
+        url: `${baseUrl}/${locale}/${page}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.8,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${baseUrl}/${l}/${page}`])
+          ),
+        },
+      });
+    }
+
+    // Static pages
+    for (const page of staticPages) {
+      urls.push({
+        url: `${baseUrl}/${locale}/${page}`,
+        lastModified: new Date(),
+        changeFrequency: "yearly",
+        priority: page === "about" ? 0.5 : 0.3,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${baseUrl}/${l}/${page}`])
+          ),
+        },
+      });
+    }
+  }
+
+  return urls;
 }

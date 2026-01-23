@@ -1,0 +1,276 @@
+{
+  "faceShape": "square",
+  "gender": "male",
+  "hairstyles": [
+    {
+      "id": "m-square-001",
+      "name": "Classic Crew Cut",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-019.jpg",
+      "description": "Timeless short cut that works for any occasion. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-002",
+      "name": "Modern Fade",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-020.jpg",
+      "description": "Clean fade with longer top for a contemporary look. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-003",
+      "name": "Textured Crop",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-021.jpg",
+      "description": "Short crop with textured top for a modern edge. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-004",
+      "name": "Buzz Cut",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-022.jpg",
+      "description": "Low-maintenance buzz cut that looks sharp and clean. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-005",
+      "name": "Short Sides Long Top",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-023.jpg",
+      "description": "Versatile cut with faded sides and styled top. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-006",
+      "name": "Ivy League",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "medium",
+      "image": "/hairstyles/male/male-024.jpg",
+      "description": "Refined cut with tapered sides and styled top. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-007",
+      "name": "Textured Quiff",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-025.jpg",
+      "description": "Modern quiff with natural texture and volume. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-008",
+      "name": "Side Part",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/male/male-026.jpg",
+      "description": "Sophisticated side part for professional settings. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-square-009",
+      "name": "Slicked Back",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/male/male-027.jpg",
+      "description": "Polished slicked back style for formal occasions. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "m-square-010",
+      "name": "Messy Top",
+      "faceShapes": [
+        "square"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/male/male-028.jpg",
+      "description": "Relaxed, tousled style with natural movement. Works great for square face shapes.",
+      "tips": [
+        "Soften angular features with layered cuts",
+        "Side-parted styles work beautifully",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    }
+  ]
+}

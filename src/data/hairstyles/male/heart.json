@@ -1,0 +1,276 @@
+{
+  "faceShape": "heart",
+  "gender": "male",
+  "hairstyles": [
+    {
+      "id": "m-heart-001",
+      "name": "Classic Crew Cut",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-029.jpg",
+      "description": "Timeless short cut that works for any occasion. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-002",
+      "name": "Modern Fade",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-030.jpg",
+      "description": "Clean fade with longer top for a contemporary look. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-003",
+      "name": "Textured Crop",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "short",
+      "image": "/hairstyles/male/male-031.jpg",
+      "description": "Short crop with textured top for a modern edge. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-004",
+      "name": "Buzz Cut",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "short",
+      "image": "/hairstyles/male/male-032.jpg",
+      "description": "Low-maintenance buzz cut that looks sharp and clean. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-005",
+      "name": "Short Sides Long Top",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-033.jpg",
+      "description": "Versatile cut with faded sides and styled top. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-006",
+      "name": "Ivy League",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "medium",
+      "image": "/hairstyles/male/male-034.jpg",
+      "description": "Refined cut with tapered sides and styled top. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-007",
+      "name": "Textured Quiff",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "trendy",
+      "length": "medium",
+      "image": "/hairstyles/male/male-035.jpg",
+      "description": "Modern quiff with natural texture and volume. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-008",
+      "name": "Side Part",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "classic",
+      "length": "long",
+      "image": "/hairstyles/male/male-036.jpg",
+      "description": "Sophisticated side part for professional settings. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "medium"
+    },
+    {
+      "id": "m-heart-009",
+      "name": "Slicked Back",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "formal",
+      "length": "long",
+      "image": "/hairstyles/male/male-037.jpg",
+      "description": "Polished slicked back style for formal occasions. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "high"
+    },
+    {
+      "id": "m-heart-010",
+      "name": "Messy Top",
+      "faceShapes": [
+        "heart"
+      ],
+      "gender": "male",
+      "ethnicity": [
+        "all"
+      ],
+      "style": "casual",
+      "length": "long",
+      "image": "/hairstyles/male/male-038.jpg",
+      "description": "Relaxed, tousled style with natural movement. Works great for heart face shapes.",
+      "tips": [
+        "Add width at the jaw level to balance",
+        "Side-swept bangs soften a wide forehead",
+        "Ask your barber for styling advice"
+      ],
+      "suitableFor": [
+        "straight",
+        "wavy",
+        "medium",
+        "thick"
+      ],
+      "maintenanceLevel": "low"
+    }
+  ]
+}
