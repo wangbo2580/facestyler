@@ -30,10 +30,10 @@ export async function generateMetadata({
 
   return {
     title: {
-      default: t("home.title"),
+      default: t("title"),
       template: `%s | FaceStyler`,
     },
-    description: t("home.description"),
+    description: t("description"),
   };
 }
 
@@ -61,7 +61,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${notoSansSC.variable}`}>
-      <head>
+      <body className={locale === "zh" ? "font-noto" : "font-inter"}>
         {/* Google Analytics */}
         {GA_ID && (
           <>
@@ -85,8 +85,7 @@ export default async function LocaleLayout({
             />
           </>
         )}
-      </head>
-      <body className={locale === "zh" ? "font-noto" : "font-inter"}>
+
         <NextIntlClientProvider messages={messages}>
           <div className="flex min-h-screen flex-col">
             <Header />
