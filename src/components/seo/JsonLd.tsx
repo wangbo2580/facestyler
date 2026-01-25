@@ -83,7 +83,7 @@ export function WebPageSchema({
     publisher: {
       "@type": "Organization",
       name: "FaceStyler",
-      url: "https://facestyler.com",
+      url: "https://www.hairstyleforme.com",
     },
   };
 

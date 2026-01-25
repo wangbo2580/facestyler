@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { FaceShape } from "@/types/hairstyle";
 
-export const BASE_URL = "https://facestyler.com";
+export const BASE_URL = "https://www.hairstyleforme.com";
 
 export function generateFaceShapeMetadata(
   locale: string,

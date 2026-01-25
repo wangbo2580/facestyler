@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
 
-  const baseUrl = "https://facestyler.com";
+  const baseUrl = "https://www.hairstyleforme.com";
 
   return {
     title: t("title"),

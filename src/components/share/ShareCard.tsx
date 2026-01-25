@@ -139,7 +139,7 @@ export function ShareCard({ faceShape, confidence, imageUrl }: ShareCardProps) {
         {/* Footer */}
         <div className="bg-muted/50 p-3 text-center">
           <p className="text-xs text-muted-foreground">
-            facestyler.com • {locale === "zh" ? "找到你的完美发型" : "Find your perfect hairstyle"}
+            hairstyleforme.com • {locale === "zh" ? "找到你的完美发型" : "Find your perfect hairstyle"}
           </p>
         </div>
       </div>

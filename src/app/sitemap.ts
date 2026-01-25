@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://facestyler.com";
+  const baseUrl = "https://www.hairstyleforme.com";
 
   const faceShapePages = [
     "hairstyle-for-oval-face",
